@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: gitops-app-sample
+  namespace: flux-app
+spec:
+  interval: 1m
+  url: https://github.com/giantswarm/gitops-app-sample
+  ref:
+    branch: main

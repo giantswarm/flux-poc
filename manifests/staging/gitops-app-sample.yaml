@@ -13,9 +13,9 @@ spec:
         name: gitops-app-sample
         namespace: flux-app
       valuesFiles:
-      - ./values.yaml
-      - ./values-staging.yaml
+      - ./helm/values.yaml
+      - ./helm/values-staging.yaml
   values:
     image:
-      tag: "934355d25292c5b30b44e15435188e3e12bc8fbe"
+      tag: "b58c2624451149740218a6c40dce8931500163fc"
   interval: 1m

@@ -13,9 +13,9 @@ spec:
         name: gitops-app-sample
         namespace: flux-app
       valuesFiles:
-      - values.yaml
-      - values-dev.yaml
+      - ./values.yaml
+      - ./values-dev.yaml
   values:
     image:
-      tag: "7d2d1e4d01730eaf853a5137d9ef85a4369ec09e"
+      tag: "934355d25292c5b30b44e15435188e3e12bc8fbe"
   interval: 1m

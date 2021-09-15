@@ -17,5 +17,5 @@ spec:
       - ./helm/values-staging.yaml
   values:
     image:
-      tag: "b58c2624451149740218a6c40dce8931500163fc"
+      tag: "c7035b5f441acb3388f8b9b5938fda8993e81ee3"
   interval: 1m

@@ -17,5 +17,5 @@ spec:
       - values-dev.yaml
       values:
         image:
-          tag: "1fe03b52fb8d199a0a6aac347fc4641bce779c88"
+          tag: "ab72df3e282cfeee8d017b430bf7682202232046"
   interval: 1m
